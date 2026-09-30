@@ -1,0 +1,23 @@
+{
+  "name": "flux-lights",
+  "description": "Claude plugins for the Flux Lights stage lighting console.",
+  "owner": {
+    "name": "Flux Lights",
+    "email": "support@getfluxlights.com",
+    "url": "https://getfluxlights.com"
+  },
+  "plugins": [
+    {
+      "name": "flux-lights",
+      "source": "./plugins/flux-lights",
+      "description": "Read your Flux Lights show, find out why a fixture is dark, and propose patch edits that you apply in the console.",
+      "category": "productivity",
+      "tags": [
+        "lighting",
+        "dmx",
+        "stage",
+        "live-events"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "flux-lights",
+  "displayName": "Flux Lights",
+  "description": "Work with the Flux Lights stage lighting console running on your computer: read the show, find out why a fixture is dark, and propose patch edits that the operator applies in the console.",
+  "author": {
+    "name": "Flux Lights",
+    "email": "support@getfluxlights.com",
+    "url": "https://getfluxlights.com"
+  },
+  "homepage": "https://getfluxlights.com",
+  "keywords": [
+    "lighting",
+    "dmx",
+    "stage",
+    "art-net",
+    "sacn",
+    "lighting-console"
+  ],
+  "userConfig": {
+    "token": {
+      "type": "string",
+      "title": "Flux Lights access token",
+      "description": "In Flux Lights: Settings → AI assistant (MCP) → turn it on → Copy token.",
+      "sensitive": true,
+      "required": true
+    },
+    "port": {
+      "type": "number",
+      "title": "Flux Lights port",
+      "description": "Settings → AI assistant (MCP) → Port in Flux Lights. Keep 8091 unless you changed it there.",
+      "default": 8091,
+      "min": 1024,
+      "max": 65535
+    }
+  },
+  "version": "0.7.1"
+}
