@@ -74,3 +74,10 @@ is up.
 | No Flux Lights tools at all (Claude Code) | `/mcp` → `plugin:flux-lights:flux-lights` → Reconnect (`flux-lights` if you added it by hand).      |
 
 Support: [support@getfluxlights.com](mailto:support@getfluxlights.com)
+
+## Licence
+
+This plugin — its configuration, skill and documentation — is released under
+the [MIT licence](LICENSE). The Flux Lights console itself is proprietary and
+licensed separately under its [End User Licence Agreement](https://getfluxlights.com/legal/eula);
+the Flux Lights name and logo are not covered by the MIT licence.

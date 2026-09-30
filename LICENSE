@@ -1,41 +1,21 @@
-Flux Lights for Claude — Proprietary Licence
-Copyright (c) 2026 Flux Lights. All rights reserved.
+MIT License
 
-This repository contains the Flux Lights plugin for Claude Code and its
-marketplace listing — configuration, skill, documentation and metadata
-(together, the "Plugin"). The Plugin is proprietary. It is NOT open source and
-NOT free software.
+Copyright (c) 2026 Flux Lights
 
-WHAT IS PERMITTED
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You may install the Plugin through Claude Code, or another client that reads
-this marketplace, and use it without modification to connect an AI assistant
-to a copy of Flux Lights that you are entitled to use. Installing places a copy
-of the Plugin on your computer; that copy is permitted for this purpose only.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Use of Flux Lights itself is governed by its End User Licence Agreement,
-published at https://getfluxlights.com/legal/eula and shown in the application
-before first use.
-
-WHAT IS NOT PERMITTED
-
-No other permission is granted. In particular, you may not modify, publish,
-redistribute, sublicense or sell the Plugin or works derived from it, in whole
-or in part, except under a separate written agreement signed by the copyright
-holder.
-
-NO WARRANTY
-
-THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
-HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
-ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE PLUGIN OR THE USE OR OTHER DEALINGS IN THE PLUGIN.
-
-Flux Lights controls stage lighting equipment. Read the safety notice in the
-End User Licence Agreement before operating it in front of an audience.
-
-CONTACT
-
-support@getfluxlights.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

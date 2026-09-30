@@ -8,6 +8,7 @@
     "url": "https://getfluxlights.com"
   },
   "homepage": "https://getfluxlights.com",
+  "license": "MIT",
   "keywords": [
     "lighting",
     "dmx",
