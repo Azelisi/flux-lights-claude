@@ -1,7 +1,7 @@
 {
   "name": "flux-lights",
   "displayName": "Flux Lights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work with the Flux Lights stage lighting console running on your computer: read the show, find out why a fixture is dark, and propose patch edits that the operator applies in the console.",
   "author": {
     "name": "Flux Lights",
@@ -9,7 +9,11 @@
     "url": "https://getfluxlights.com"
   },
   "homepage": "https://getfluxlights.com",
+  "repository": "https://github.com/Azelisi/flux-lights-claude",
+  "documentationUrl": "https://github.com/Azelisi/flux-lights-claude#readme",
+  "supportUrl": "https://github.com/Azelisi/flux-lights-claude/issues",
   "privacyPolicyUrl": "https://getfluxlights.com/legal/privacy",
+  "termsOfServiceUrl": "https://getfluxlights.com/legal/terms",
   "license": "MIT",
   "keywords": ["lighting", "dmx", "stage", "art-net", "sacn", "lighting-console"],
   "userConfig": {

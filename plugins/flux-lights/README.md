@@ -90,7 +90,8 @@ is up.
 | The access token was rejected             | Someone pressed New token. Copy the token again and paste it into the plugin or extension settings. |
 | No Flux Lights tools at all (Claude Code) | `/mcp` → `plugin:flux-lights:flux-lights` → Reconnect (`flux-lights` if you added it by hand).      |
 
-Support: [support@getfluxlights.com](mailto:support@getfluxlights.com)
+Support: [GitHub issues](https://github.com/Azelisi/flux-lights-claude/issues) or
+[support@getfluxlights.com](mailto:support@getfluxlights.com)
 
 ## Licence
 
