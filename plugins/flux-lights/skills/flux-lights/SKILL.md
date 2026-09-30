@@ -20,8 +20,9 @@ through it, one step at a time:
 1. Start Flux Lights.
 2. Open **Settings → AI assistant (MCP)** and turn it on.
 3. Press **Copy token** and put the token into this plugin's options:
-   `/plugin` → Installed → Flux Lights → Configure options. The port there
-   must match the port shown in the console (8091 by default).
+   `/plugin` → Installed → Flux Lights → Configure options. The address there
+   must match the one the console shows after "Listening at"
+   (`http://127.0.0.1:8091/mcp` by default).
 4. Reconnect the server: `/mcp` → `plugin:flux-lights:flux-lights` → Reconnect.
 
 "Rejected the access token" means the token changed (someone pressed

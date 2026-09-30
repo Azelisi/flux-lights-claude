@@ -8,8 +8,9 @@ in Flux Lights.** Claude runs the show live (GO, grand master) only if you
 switch that on for the show, and Flux Lights never lets it fire a cue that
 strobes.
 
-Works only with Flux Lights running **locally, on the same computer**. The
-free version of Flux Lights is enough:
+Works only with Flux Lights running **locally, on the same computer**: use it
+in Claude Code on the machine where the console runs — Claude in the browser
+can't reach your console. The free version of Flux Lights is enough:
 [download it](https://getfluxlights.com).
 
 ## What you can ask
@@ -40,9 +41,10 @@ free version of Flux Lights is enough:
 /plugin install flux-lights --marketplace Azelisi/flux-lights-claude
 ```
 
-When asked, paste the token. Keep the port at 8091 unless you changed it in
-Flux Lights. To change the token later: `/plugin` → Installed → Flux Lights →
-Configure options, then `/mcp` → `plugin:flux-lights:flux-lights` → Reconnect.
+When asked, paste the token. Keep the address `http://127.0.0.1:8091/mcp`
+unless Flux Lights shows another one after "Listening at". To change the token
+or the address later: `/plugin` → Installed → Flux Lights → Configure options,
+then `/mcp` → `plugin:flux-lights:flux-lights` → Reconnect.
 
 ## Claude Desktop
 
@@ -55,6 +57,21 @@ Configure options, then `/mcp` → `plugin:flux-lights:flux-lights` → Reconnec
 If Flux Lights isn't running when Claude starts, the extension still loads
 and tells Claude what to switch on; it connects by itself once Flux Lights
 is up.
+
+## What this plugin connects to and sends
+
+- **One MCP server, and only on your computer:** the address you set (by
+  default `http://127.0.0.1:8091/mcp`) — Flux Lights itself. The plugin runs no
+  code of its own, downloads nothing and sends no telemetry.
+- **What goes to Flux Lights:** the tool calls Claude makes — which fixture to
+  diagnose, the patch edits or cue list it proposes, live commands if you
+  allowed them — with your access token in the `Authorization` header.
+- **What comes back:** data from your show — fixture, cue and group names,
+  channel values. Claude reads it as part of your conversation, which Anthropic
+  handles under the terms of your Claude plan.
+- Flux Lights' own usage statistics are separate, off by default and only
+  with your consent: see the
+  [Flux Lights privacy policy](https://getfluxlights.com/legal/privacy).
 
 ## Privacy and safety
 

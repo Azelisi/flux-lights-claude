@@ -1,6 +1,7 @@
 {
   "name": "flux-lights",
   "displayName": "Flux Lights",
+  "version": "1.0.0",
   "description": "Work with the Flux Lights stage lighting console running on your computer: read the show, find out why a fixture is dark, and propose patch edits that the operator applies in the console.",
   "author": {
     "name": "Flux Lights",
@@ -8,15 +9,9 @@
     "url": "https://getfluxlights.com"
   },
   "homepage": "https://getfluxlights.com",
+  "privacyPolicyUrl": "https://getfluxlights.com/legal/privacy",
   "license": "MIT",
-  "keywords": [
-    "lighting",
-    "dmx",
-    "stage",
-    "art-net",
-    "sacn",
-    "lighting-console"
-  ],
+  "keywords": ["lighting", "dmx", "stage", "art-net", "sacn", "lighting-console"],
   "userConfig": {
     "token": {
       "type": "string",
@@ -25,14 +20,11 @@
       "sensitive": true,
       "required": true
     },
-    "port": {
-      "type": "number",
-      "title": "Flux Lights port",
-      "description": "Settings → AI assistant (MCP) → Port in Flux Lights. Keep 8091 unless you changed it there.",
-      "default": 8091,
-      "min": 1024,
-      "max": 65535
+    "url": {
+      "type": "string",
+      "title": "Flux Lights address",
+      "description": "Settings → AI assistant (MCP) in Flux Lights shows it after \"Listening at\". Keep the default unless you changed the port there.",
+      "default": "http://127.0.0.1:8091/mcp"
     }
-  },
-  "version": "0.7.1"
+  }
 }
